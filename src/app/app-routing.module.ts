@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { VerticalChartComponent } from './dashboard/vertical.component';
+import { VerticalComponent } from './dashboard/vertical.component';
 
 
 const routes: Routes = [
-  { path: 'vertical', component: VerticalChartComponent },
+  { path: 'vertical', component: VerticalComponent },
 ];
 
 @NgModule({
